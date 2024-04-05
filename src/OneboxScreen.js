@@ -1,11 +1,9 @@
 // OneboxScreen.js
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react'; // Removed useState import as it's not needed
 import axios from 'axios';
 
 const OneboxScreen = () => {
-  const [oneboxData, setOneboxData] = useState([]);
-
   useEffect(() => {
     fetchData();
   }, []);
@@ -13,7 +11,7 @@ const OneboxScreen = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get('/onebox/list');
-      setOneboxData(response.data);
+      console.log(response.data); // Log the fetched data
     } catch (error) {
       console.error('Error fetching data:', error);
     }
