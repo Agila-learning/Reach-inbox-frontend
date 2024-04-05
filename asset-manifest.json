@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reach-inbox-frontend/static/css/main.d274cccc.css",
+    "main.js": "/Reach-inbox-frontend/static/js/main.70e7db84.js",
+    "static/js/453.7984926c.chunk.js": "/Reach-inbox-frontend/static/js/453.7984926c.chunk.js",
+    "index.html": "/Reach-inbox-frontend/index.html",
+    "main.d274cccc.css.map": "/Reach-inbox-frontend/static/css/main.d274cccc.css.map",
+    "main.70e7db84.js.map": "/Reach-inbox-frontend/static/js/main.70e7db84.js.map",
+    "453.7984926c.chunk.js.map": "/Reach-inbox-frontend/static/js/453.7984926c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d274cccc.css",
+    "static/js/main.70e7db84.js"
+  ]
+}
