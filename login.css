@@ -11,43 +11,47 @@ body {
   background: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
 }
 h2 {
   text-align: center;
 }
-input[type="email"],
-input[type="password"],
-input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  cursor: pointer;
-}
-input[type="submit"]:hover {
-  background-color: #45a049;
+/* login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the form is vertically centered */
 }
 
+.login-form {
+  width: 300px; /* Adjust the width as needed */
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color */
+  color: #fff; /* White text */
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 15px;
   
-  /* button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-   */
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  justify-content: center;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
